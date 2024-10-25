@@ -1,0 +1,358 @@
+//-----------------------------------------------
+  // Contact Data Array
+  //-----------------------------------------------
+
+  const contactData = [
+    {
+      href: "tel:+593994805678",
+      icon: "/icons/call_g.png",
+      alt: "Phone",
+      title: "Contáctame",
+    },
+    {
+      href: "mailto:veritocanor@gmail.com",
+      icon: "/icons/email_g.png",
+      alt: "Email",
+      title: "Email",
+    },
+    {
+      href: "https://wa.me/+593994805678",
+      icon: "/icons/whatsapp_g.png",
+      alt: "WhatsApp",
+      title: "WhatsApp",
+    },
+    // {
+    //   href: "https://t.me/username",
+    //   icon: "/icons/telegram_c.png",
+    //   alt: "Telegram",
+    //   title: "Telegram",
+    // },
+    {
+      href: "https://www.google.com/maps/search/?api=1&query=Quito",
+      icon: "/icons/ubicacion_g.png",
+      alt: "Location",
+      title: "Ubicación",
+    },
+  ];
+
+  //-----------------------------------------------
+  // Education Data Array
+  //-----------------------------------------------
+
+  const educationData = [
+    {
+      title: "Abogada",
+      institution: "Universidad Nacional de Loja",
+      year: "2015",
+      description: "Abogada de los Tribunales y Juzgados de la República del Ecuador",
+      logo: "/images/education/unl_logo.png",
+    },
+    {
+      title: "Community Manager",
+      institution: "Letrada Academy",
+      year: "2023",
+      description: "Manejo de redes sociales y marketing digital",
+      logo: "/images/education/letrada_logo.jpg",
+    },
+  ];
+
+  //-----------------------------------------------
+  // Services Data Array
+  //-----------------------------------------------
+
+  const service = [
+    {
+      service: "Asesoría en Derecho Civil",
+      description:
+        "Brindamos asesoría legal integral en disputas civiles, incluyendo contratos, responsabilidad civil, reclamos por daños y perjuicios, y más. Nuestro enfoque se centra en la prevención de litigios y la representación eficaz en juicio para proteger tus derechos e intereses.",
+      imageUrl: "/images/users/servicio1.jpg",
+    },
+    {
+      service: "Consultoría Corporativa y Societaria",
+      description:
+        "Ofrecemos servicios de consultoría para empresas, abarcando desde la constitución de sociedades hasta la resolución de conflictos societarios. Nuestro objetivo es asegurar la operación eficiente de tu empresa, guiándote en la gobernanza corporativa, fusiones, adquisiciones y reestructuraciones.",
+      imageUrl: "/images/users/servicio2.jpg",
+    },
+
+    {
+      service: "Registro y Protección de Marcas",
+      description:
+        "Especialistas en propiedad intelectual, nos dedicamos al registro y protección de marcas en el territorio nacional e internacional. Aseguramos la exclusividad y defensa de tu marca frente a infracciones y competencia desleal, potenciando el valor de tu activo más importante.",
+      imageUrl: "/images/users/servicio3.jpg",
+    },
+    {
+      service: "Desarrollo de Estrategias de Contenido Digital",
+      description:
+        "Creamos estrategias de contenido personalizadas para marcas y profesionales que buscan destacar en el entorno digital. Nuestro servicio combina análisis de audiencia, storytelling efectivo y optimización SEO para generar contenido que no solo atraiga sino que también convierta y retenga a tu audiencia objetivo.",
+      imageUrl: "/images/users/servicio4.jpg",
+    },
+    {
+      service: "Optimización de Experiencia de Usuario (UX)",
+      description:
+        "Ofrecemos un servicio integral de optimización UX para sitios web y aplicaciones, centrado en crear interfaces amigables y accesibles. A través de un diseño centrado en el usuario, mejoramos la usabilidad y satisfacción del cliente, lo que se traduce en mejores tasas de conversión y fidelización de usuarios.",
+      imageUrl: "/images/users/servicio5.jpg",
+    },
+    {
+      service: "Gestión de Redes Sociales y Construcción de Marca Personal",
+      description:
+        "Especializados en la gestión de redes sociales y el fortalecimiento de la marca personal, ayudamos a individuos y empresas a construir y mantener una presencia en línea sólida. A través de contenido auténtico y estrategias de engagement, te posicionamos como líder en tu industria, conectando con tu audiencia de manera efectiva.",
+      imageUrl: "/images/users/servicio6.jpg",
+    },
+  ];
+
+  //-----------------------------------------------
+  // Carousel Image Data Array
+  //-----------------------------------------------
+
+  const imageData = [
+    {
+      src: "/images/users/imagen1.png",
+      alt: "Nutrición imagen",
+      captionTitle: "Asesoría en Derecho Civil",
+      //captionText: "Brindamos asesoría legal integral en disputas civiles, incluyendo contratos, responsabilidad civil, reclamos por daños y perjuicios, y más. Nuestro enfoque se centra en la prevención de litigios y la representación eficaz en juicio para proteger tus derechos e intereses.",
+    },
+    {
+      src: "/images/users/imagen2.png",
+      alt: "Nutrición imagen",
+      captionTitle: "Derecho Societario y Corporativo",
+      //captionText: "Ofrecemos servicios de consultoría para empresas, abarcando desde la constitución de sociedades hasta la resolución de conflictos societarios. Nuestro objetivo es asegurar la operación eficiente de tu empresa, guiándote en la gobernanza corporativa, fusiones, adquisiciones y reestructuraciones.",
+    },
+    {
+      src: "/images/users/imagen3.png",
+      alt: "Nutrición imagen",
+      captionTitle: "Registro y Protección de Marcas",
+      //captionText: "Especialistas en propiedad intelectual, nos dedicamos al registro y protección de marcas en el territorio nacional e internacional. Aseguramos la exclusividad y defensa de tu marca frente a infracciones y competencia desleal, potenciando el valor de tu activo más importante.",
+    },
+    {
+      src: "/images/users/imagen4.png",
+      alt: "Nutrición imagen",
+      captionTitle: "Globaleg asesoría legal",
+      //captionText: "Globaleg es una firma de abogados especializada en derecho civil, societario y corporativo. Nuestro equipo de profesionales brinda asesoría legal integral a empresas y particulares, con un enfoque en la prevención de litigios y la protección de los intereses de nuestros clientes.",
+    },
+    // Agrega más imágenes según sea necesario
+  ];
+
+  //-----------------------------------------------
+
+  return (
+    <>
+      <Head>
+        <title>Ab. Verónica Cano</title>
+        <meta name="description" content="Ab. Verónica Cano Digital Card" />
+        <link rel="icon" href="/icons/logo1.ico" />
+
+        {/* Open Graph */}
+        <meta property="og:url" content="https://veronicacano.anvetcard.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Business digital card Verónica Cano" />
+        <meta property="og:description" content="Tarjeta de presentación digital" />
+        <meta
+          property="og:image"
+          content="https://veronicacano.anvetcard.com/images/shared_image.png"
+        />
+      </Head>
+      <Layout>
+        <Container fluid className={styles.mainContainer}>
+          {/* Profile Section */}
+
+          <section className={styles.profileSection}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
+              {/* Profile Image Section */}
+
+              <Row>
+                <Col className={styles.ProfileImageSection}>
+                  <ProfileImage
+                    src="/images/users/profile.png"
+                    alt="Ab. Verónica Cano"
+                    size={250}
+                  />
+                </Col>
+              </Row>
+
+              {/* Personal Info Section */}
+              <Row>
+                <Col>
+                  <PersonalInfo
+                    name="Verónica Cano"
+                    title="ABOGADA"
+                    description="Especialista en Derecho Civil. Asesoría legal integral en disputas civiles, Societaria y Corporativa. Registro y Protección de Marcas."
+                  />
+                </Col>
+              </Row>
+
+              {/* Social Networks Section */}
+
+              <Row>
+                <Col>
+                  <SocialMediaIcons
+                    facebook="https://www.facebook.com/veronica.cano.94"
+                    instagram="https://www.instagram.com/veritocanor/"
+                    linkedin="https://www.linkedin.com/in/veronica-cano-33298229a/"
+                    tiktok="https://www.tiktok.com/@veritocano02"
+                  />
+                </Col>
+              </Row>
+
+              {/* Contact Info Section */}
+              <Row>
+                <Col className={styles.contactButtonSection}>
+                  <ContactIconsButton
+                    contacts={contactData}
+                    buttonClassName="customButtonClass" // Clases adicionales para personalizar los botones
+                    titleClassName="customTitleClass" // Clase para personalizar los títulos
+                    iconClassName="customIconClass" // Clase para personalizar los íconos
+                    colClassName="customColClass" // Clase para personalizar la columna
+                    containerContactButton="customContainerClass" // Clase para personalizar el contenedor
+                  />
+                </Col>
+              </Row>
+            </motion.div>
+          </section>
+
+          {/* Componente de educación y certificaciones */}
+
+          <Row>
+            <Col className={styles.educationSection}>
+              <section id="education">
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1 }}
+                >
+                  <div>
+                    <h2 className={styles.educationTitle}>Educación y Certificaciones</h2>
+                  </div>
+
+                  <div className={styles.educationInfo}>
+                    <EducationAndCertifications items={educationData} />
+                  </div>
+                </motion.div>
+              </section>
+            </Col>
+          </Row>
+
+          {/* Componente de Servicios */}
+
+          <Row>
+            <Col className={styles.servicesSection}>
+              <section id="servicios">
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1 }}
+                >
+                  <div className={styles.servicesText}>
+                    <h2 className={styles.servicesTitle}>Servicios</h2>
+                    <span className={styles.servicesInstructions}>
+                      Haz clic en el item para ver la información
+                    </span>
+                  </div>
+
+                  <div className={styles.servicesInfo}>
+                    <Services services={service} />
+                  </div>
+                  <div className={styles.whatsappSection}>
+                    <WhatsAppButton
+                      phone="+593994805678"
+                      message="Hola, me gustaría saber más sobre tus servicios"
+                    />
+                  </div>
+                </motion.div>
+              </section>
+            </Col>
+          </Row>
+
+          {/* Componente de carrusel de imágenes */}
+
+          <Row>
+            <Col className={styles.carouselSection}>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
+                <h2 className={styles.carouselTitle}>Galería de Imágenes</h2>
+                <div>
+                  <CustomCarousel images={imageData} />
+                </div>
+                <div className={styles.whatsappSection1}>
+                    <WhatsAppButton
+                      phone="+593994805678"
+                      message="Hola, me gustaría saber más sobre tus servicios"
+                      stylesButton={styles.WhatsAppButton}
+                    />
+                  </div>
+              </motion.div>
+            </Col>
+          </Row>
+
+          {/* Componente de video player */}
+
+          <Row>
+            <Col className={styles.videoPlayer}>
+              <VideoPlayer videoUrl="/video/users/divorcio.mp4" />
+            </Col>
+          </Row>
+
+          {/* Componente de información de pago */}
+
+          <Row>
+            <Col className={styles.paymentInfo}>
+              <section id="payment" className={styles.paymentSection}>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1 }}
+                >
+                  <h2 className={styles.paymentTitle}>Información de Pago</h2>
+                  <p className={styles.paymentDescription}>
+                    Haz clic en el logo para acceder a los datos de la cuenta
+                  </p>
+
+                  <div className={styles.bankInfo}>
+                    {/* <PaymentInfo
+                      bankName="Banco Pichincha"
+                      accountNumber="5261117000"
+                      identification="1103826614"
+                      email="aveintimilla@anvetcorp.com"
+                      bankLogo="/images/banco_pichincha.png"
+                    /> */}
+                    <PaymentInfo
+                      bankName="Banco Pichincha"
+                      accountNumber="5261025500"
+                      accountType="Cuenta de ahorros"
+                      identification="1103535835"
+                      email="veritocanor@gmail.com"
+                      bankLogo="/images/banksLogos/bancoPichincha_b.png"
+                    />
+                  </div>
+                </motion.div>
+              </section>
+            </Col>
+          </Row>
+
+          {/* Componente de QR Code */}
+
+          <Row>
+            <Col className={styles.qrCode}>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
+                <div className={styles.titleQrContainer}>
+                  <h2 className={styles.qrTitle}>Escanea el código QR para compartir</h2>
+                </div>
+                <QRCodeComponent qrCodeImageUrl="/images/qrcode_veronicacano.png" altText="QR Code" />
+              </motion.div>
+            </Col>
+          </Row>
+        </Container>
+      </Layout>
+    </>
+  );
+}
